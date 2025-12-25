@@ -12,7 +12,7 @@ st.set_page_config(
     page_icon="🤖",
     layout="centered",
 )
-st.title("💬Kunal's Gen AI Chatbot")
+st.title("💬Kundan Ki Kalam se: Up for a Samvaad ?")
 
 # initiate chat history
 if "chat_history" not in st.session_state:
