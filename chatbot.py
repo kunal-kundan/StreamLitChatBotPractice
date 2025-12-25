@@ -34,6 +34,18 @@ st.markdown(
     """,
     unsafe_allow_html=True,
 )
+# Change full app background color
+st.markdown(
+    """
+    <style>
+    .stApp {
+        background: linear-gradient(to bottom right, #0f172a, #1e293b); /* dark blue gradient */
+        color: light green;
+    }
+    </style>
+    """,
+    unsafe_allow_html=True,
+)
 # st.title("💬Kundan Ki Kalam se: Up for an AI flavored Samvaad ?")
 
 # initiate chat history
