@@ -12,7 +12,29 @@ st.set_page_config(
     page_icon="🤖",
     layout="centered",
 )
-st.title("💬Kundan Ki Kalam se: Up for an AI flavored Samvaad ?")
+# Remove default top padding (optional)
+st.markdown(
+    """
+    <style>
+    .main { padding-top: 0rem; }
+    </style>
+    """,
+    unsafe_allow_html=True,
+)
+
+st.markdown(
+    """
+    <h1 style="text-align:center;">
+        <span style="color:#FF4B4B;">💬</span>
+        <span style="color:#1E90FF;">KunAI:</span>
+        <span style="color:#32CD32;">An</span>
+        <span style="color:#FF8C00;">Agentic</span>
+        <span style="color:#9400D3;">Samvaad</span>
+    </h1>
+    """,
+    unsafe_allow_html=True,
+)
+# st.title("💬Kundan Ki Kalam se: Up for an AI flavored Samvaad ?")
 
 # initiate chat history
 if "chat_history" not in st.session_state:
