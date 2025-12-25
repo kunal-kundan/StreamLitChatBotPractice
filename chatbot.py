@@ -39,7 +39,8 @@ st.markdown(
     """
     <style>
     .stApp {
-        background: linear-gradient(to bottom right, #0f172a, #1e293b); /* dark blue gradient */
+        # background: linear-gradient(to bottom right, #0f172a, #1e293b); /* dark blue gradient */
+        background: linear-gradient(to bottom right, #e0f7df, #b2f2bb); /* light green gradient */
         color: white;
     }
     </style>
