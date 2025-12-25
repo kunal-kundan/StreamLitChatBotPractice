@@ -52,7 +52,7 @@ llm = ChatGroq(
 )
 
 # input box
-user_prompt = st.chat_input("Ask Chatbot...")
+user_prompt = st.chat_input("Let's chat")
 
 if user_prompt:
     st.chat_message("user").markdown(user_prompt)
