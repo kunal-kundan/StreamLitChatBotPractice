@@ -25,10 +25,8 @@ st.markdown(
 st.markdown(
     """
     <h1 style="text-align:center;">
-        
         <span style="color:#1E90FF;">KunAI:</span>
-        <span style="color:#32CD32;">Samvaad</span>
-        <span style="color:#FF4B4B;">💬</span>
+        <span style="color:#32CD32;">Samvaad💬</span>
     </h1>
     """,
     unsafe_allow_html=True,
